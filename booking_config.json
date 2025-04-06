@@ -1,0 +1,292 @@
+{
+    "active_days": {
+        "Monday": false,
+        "Tuesday": true,
+        "Wednesday": false,
+        "Thursday": true,
+        "Friday": false,
+        "Saturday": true,
+        "Sunday": false
+    },
+    "weekday": {
+        "start_time": "06:00 PM",
+        "end_time": "07:20 PM",
+        "time_ranking": [
+            "6:20 PM",
+            "6:00 PM",
+            "6:40 PM",
+            "7:00 PM",
+            "7:20 PM"
+        ]
+    },
+    "weekend": {
+        "start_time": "09:00 AM",
+        "end_time": "11:00 AM",
+        "time_ranking": [
+            "9:40 AM",
+            "10:20 AM",
+            "9:00 AM",
+            "9:20 AM",
+            "10:00 AM",
+            "10:40 AM",
+            "11:00 AM"
+        ]
+    },
+    "court_ranking": [
+        1,
+        2,
+        3,
+        6,
+        4,
+        5,
+        7
+    ],
+    "final_schedule": {
+        "Tuesday": [
+            {
+                "court": 1,
+                "time_slot": "6:20 PM - 7:00 PM"
+            },
+            {
+                "court": 2,
+                "time_slot": "6:20 PM - 7:00 PM"
+            },
+            {
+                "court": 3,
+                "time_slot": "6:20 PM - 7:00 PM"
+            },
+            {
+                "court": 6,
+                "time_slot": "6:00 PM - 6:40 PM"
+            },
+            {
+                "court": 4,
+                "time_slot": "6:00 PM - 6:40 PM"
+            },
+            {
+                "court": 5,
+                "time_slot": "6:00 PM - 6:40 PM"
+            },
+            {
+                "court": 7,
+                "time_slot": "6:00 PM - 6:40 PM"
+            },
+            {
+                "court": 6,
+                "time_slot": "6:40 PM - 7:20 PM"
+            },
+            {
+                "court": 4,
+                "time_slot": "6:40 PM - 7:20 PM"
+            },
+            {
+                "court": 5,
+                "time_slot": "6:40 PM - 7:20 PM"
+            },
+            {
+                "court": 7,
+                "time_slot": "6:40 PM - 7:20 PM"
+            },
+            {
+                "court": 1,
+                "time_slot": "7:00 PM - 7:40 PM"
+            },
+            {
+                "court": 2,
+                "time_slot": "7:00 PM - 7:40 PM"
+            },
+            {
+                "court": 3,
+                "time_slot": "7:00 PM - 7:40 PM"
+            },
+            {
+                "court": 6,
+                "time_slot": "7:20 PM - 8:00 PM"
+            },
+            {
+                "court": 4,
+                "time_slot": "7:20 PM - 8:00 PM"
+            },
+            {
+                "court": 5,
+                "time_slot": "7:20 PM - 8:00 PM"
+            },
+            {
+                "court": 7,
+                "time_slot": "7:20 PM - 8:00 PM"
+            }
+        ],
+        "Thursday": [
+            {
+                "court": 1,
+                "time_slot": "6:20 PM - 7:00 PM"
+            },
+            {
+                "court": 2,
+                "time_slot": "6:20 PM - 7:00 PM"
+            },
+            {
+                "court": 3,
+                "time_slot": "6:20 PM - 7:00 PM"
+            },
+            {
+                "court": 6,
+                "time_slot": "6:00 PM - 6:40 PM"
+            },
+            {
+                "court": 4,
+                "time_slot": "6:00 PM - 6:40 PM"
+            },
+            {
+                "court": 5,
+                "time_slot": "6:00 PM - 6:40 PM"
+            },
+            {
+                "court": 7,
+                "time_slot": "6:00 PM - 6:40 PM"
+            },
+            {
+                "court": 6,
+                "time_slot": "6:40 PM - 7:20 PM"
+            },
+            {
+                "court": 4,
+                "time_slot": "6:40 PM - 7:20 PM"
+            },
+            {
+                "court": 5,
+                "time_slot": "6:40 PM - 7:20 PM"
+            },
+            {
+                "court": 7,
+                "time_slot": "6:40 PM - 7:20 PM"
+            },
+            {
+                "court": 1,
+                "time_slot": "7:00 PM - 7:40 PM"
+            },
+            {
+                "court": 2,
+                "time_slot": "7:00 PM - 7:40 PM"
+            },
+            {
+                "court": 3,
+                "time_slot": "7:00 PM - 7:40 PM"
+            },
+            {
+                "court": 6,
+                "time_slot": "7:20 PM - 8:00 PM"
+            },
+            {
+                "court": 4,
+                "time_slot": "7:20 PM - 8:00 PM"
+            },
+            {
+                "court": 5,
+                "time_slot": "7:20 PM - 8:00 PM"
+            },
+            {
+                "court": 7,
+                "time_slot": "7:20 PM - 8:00 PM"
+            }
+        ],
+        "Saturday": [
+            {
+                "court": 1,
+                "time_slot": "9:40 AM - 10:20 AM"
+            },
+            {
+                "court": 2,
+                "time_slot": "9:40 AM - 10:20 AM"
+            },
+            {
+                "court": 3,
+                "time_slot": "9:40 AM - 10:20 AM"
+            },
+            {
+                "court": 1,
+                "time_slot": "10:20 AM - 11:00 AM"
+            },
+            {
+                "court": 2,
+                "time_slot": "10:20 AM - 11:00 AM"
+            },
+            {
+                "court": 3,
+                "time_slot": "10:20 AM - 11:00 AM"
+            },
+            {
+                "court": 1,
+                "time_slot": "9:00 AM - 9:40 AM"
+            },
+            {
+                "court": 2,
+                "time_slot": "9:00 AM - 9:40 AM"
+            },
+            {
+                "court": 3,
+                "time_slot": "9:00 AM - 9:40 AM"
+            },
+            {
+                "court": 6,
+                "time_slot": "9:20 AM - 10:00 AM"
+            },
+            {
+                "court": 4,
+                "time_slot": "9:20 AM - 10:00 AM"
+            },
+            {
+                "court": 5,
+                "time_slot": "9:20 AM - 10:00 AM"
+            },
+            {
+                "court": 7,
+                "time_slot": "9:20 AM - 10:00 AM"
+            },
+            {
+                "court": 6,
+                "time_slot": "10:00 AM - 10:40 AM"
+            },
+            {
+                "court": 4,
+                "time_slot": "10:00 AM - 10:40 AM"
+            },
+            {
+                "court": 5,
+                "time_slot": "10:00 AM - 10:40 AM"
+            },
+            {
+                "court": 7,
+                "time_slot": "10:00 AM - 10:40 AM"
+            },
+            {
+                "court": 6,
+                "time_slot": "10:40 AM - 11:20 AM"
+            },
+            {
+                "court": 4,
+                "time_slot": "10:40 AM - 11:20 AM"
+            },
+            {
+                "court": 5,
+                "time_slot": "10:40 AM - 11:20 AM"
+            },
+            {
+                "court": 7,
+                "time_slot": "10:40 AM - 11:20 AM"
+            },
+            {
+                "court": 1,
+                "time_slot": "11:00 AM - 11:40 AM"
+            },
+            {
+                "court": 2,
+                "time_slot": "11:00 AM - 11:40 AM"
+            },
+            {
+                "court": 3,
+                "time_slot": "11:00 AM - 11:40 AM"
+            }
+        ]
+    }
+}

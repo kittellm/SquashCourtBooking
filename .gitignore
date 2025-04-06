@@ -33,8 +33,5 @@ ENV/
 # Environment variables
 .env
 
-# Config files
-booking_config.json
-
 # Logs
 *.log 

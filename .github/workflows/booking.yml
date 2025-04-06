@@ -1,0 +1,35 @@
+name: Squash Court Booking
+
+on:
+  schedule:
+    - cron: '0 12 * * *'  # Run at noon every day
+  workflow_dispatch:  # Allow manual runs
+
+jobs:
+  book-court:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
+        
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+        
+    - name: Install Chrome
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y google-chrome-stable
+        
+    - name: Run booking script
+      env:
+        CLUBLOCKER_USERNAME: ${{ secrets.CLUBLOCKER_USERNAME }}
+        CLUBLOCKER_PASSWORD: ${{ secrets.CLUBLOCKER_PASSWORD }}
+      run: |
+        python run_scheduled_bookings.py --verbose 

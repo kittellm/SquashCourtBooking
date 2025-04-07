@@ -2,7 +2,7 @@ name: Squash Court Booking
 
 on:
   schedule:
-    - cron: '0 12 * * *'  # Run at noon every day
+    - cron: '0 16 * * *'  # Run at noon every day
   workflow_dispatch:  # Allow manual runs
 
 jobs:
